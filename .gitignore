@@ -1,0 +1,15 @@
+# 白名单模式：本目录是 d2l 教材章节目录，只发布房价预测项目文件
+/*
+!/.gitignore
+!/README.md
+!/kaggle-house-price.ipynb
+!/search_hp.py
+!/search_linear.py
+!/search_linear2.py
+!/search_linear2_results.txt
+!/autogluon_house.py
+!/submission.csv
+!/submission_autogluon.csv
+
+.ipynb_checkpoints/
+__pycache__/
