@@ -13,8 +13,9 @@
 | 手调（lr=2.0, wd=0.01, 500 epoch） | 0.1480 |
 | **网格搜索最优（lr=3.0, wd=0, 500 epoch）** | **0.1469** |
 
-调参过程：`search_linear2.py` 网格搜索 440 组配置（lr × weight_decay × epochs × batch_size），
-结果记录在 `search_linear2_results.txt`；`autogluon_house.py` 为 AutoGluon 自动化对照。
+调参过程：`search_linear2.py` 网格搜索 440 组配置（lr × weight_decay × epochs × batch_size，
+日志跑到第 359 组中断，上表最优为已试范围内最优），结果记录在 `search_linear2_results.txt`；
+`autogluon_house.py` 为 AutoGluon 自动化对照。
 
 ## 文件说明
 
